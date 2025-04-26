@@ -1,0 +1,2552 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-KFVR379M6D"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'G-KFVR379M6D');
+    </script>
+    <meta name="google-site-verification" content="aQyy4yQSaTI-S2Imufz31FDznOWiYYRomUndgPkL474"/>
+    <meta name='impact-site-verification' value='b4a461d4-17fb-4412-9aef-3515c19580b2'>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turn2Web - Website builder , create free, customizable, and responsive professional single-page websites with various options for easy styling and personalization. </title>
+    <meta name="description" content="No-Code Platform to create single page static websites for professionals, students, freelancers, job seekers, startup. No expertise required">
+    <meta name="keywords" content="Turn2Web,single page,online portfolio website, Resume, professional website builder">
+    <meta name="author" content="GoItDev">
+    <meta name="robots" content="index, follow">
+
+    <meta property="og:title" content="Turn2Web -  Website builder , create free, customizable, and responsive professional single-page websites with various options for easy styling and personalization.">
+    <meta property="og:description" content="No-Code Platform to create single page static websites for professionals, students, freelancers, job seekers, startup. No expertise required">
+    <meta property="og:url" content="https://turn2web.com/">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://rs.turn2web.com/img/v3/t2w_shorter.png">
+
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Turn2Web -  Website builder , create free, customizable, and responsive professional single-page websites with various options for easy styling and personalization.">
+    <meta name="twitter:description" content="No-Code Platform to create single page static websites for professionals, students, freelancers, job seekers, startup. No expertise required">
+    <meta name="twitter:image" content="https://rs.turn2web.com/img/v3/t2w_shorter.png">
+
+    <link rel="canonical" href="https://turn2web.com/">
+
+    <link rel="icon" href="/img/favicon-32x32.png" type="image/png">
+
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.4.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Oleo+Script:wght@400;700&display=swap"
+          rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"
+          rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic"
+          rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://rs.turn2web.com/site/turn2web/assets/css/style.css"/>
+    <sec:csrfMetaTags/>
+</head>
+<style>
+
+    /* 
+ * Turn2Web - Professional Mobile-First Stylesheet
+ * Enhanced for mobile devices with professional design elements
+ */
+
+/* ===== VARIABLES ===== */
+:root {
+  /* Color Palette - Professional Blues */
+  --primary: #2563eb;
+  --primary-dark: #1d4ed8;
+  --primary-light: #60a5fa;
+  --secondary: #0ea5e9;
+  --accent: #f43f5e;
+  --dark: #0f172a;
+  --light: #f8fafc;
+  --gray-50: #f8fafc;
+  --gray-100: #f1f5f9;
+  --gray-200: #e2e8f0;
+  --gray-300: #cbd5e1;
+  --gray-400: #94a3b8;
+  --gray-500: #64748b;
+  --gray-600: #475569;
+  --gray-700: #334155;
+  --gray-800: #1e293b;
+  --gray-900: #0f172a;
+  --success: #10b981;
+  --warning: #f59e0b;
+  --danger: #ef4444;
+  --info: #06b6d4;
+  
+  /* Typography */
+  --font-primary: 'Poppins', sans-serif;
+  --font-secondary: 'Montserrat', sans-serif;
+  --font-decorative: 'Dancing Script', cursive;
+  
+  /* Spacing - Using rem for better scaling */
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-xxl: 3rem;
+  
+  /* Border Radius */
+  --radius-sm: 0.25rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 1rem;
+  --radius-xl: 1.5rem;
+  --radius-full: 9999px;
+  
+  /* Shadows - More subtle and professional */
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  
+  /* Transitions - Smoother */
+  --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow: 350ms cubic-bezier(0.4, 0, 0.2, 1);
+  
+  /* Container widths */
+  --container-sm: 640px;
+  --container-md: 768px;
+  --container-lg: 1024px;
+  --container-xl: 1280px;
+}
+
+/* ===== RESET & BASE STYLES ===== */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: var(--font-primary);
+  line-height: 1.6;
+  color: var(--gray-800);
+  background-color: var(--light);
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+a {
+  color: var(--primary);
+  text-decoration: none;
+  transition: color var(--transition-normal);
+  touch-action: manipulation;
+}
+
+a:hover, a:focus {
+  color: var(--primary-dark);
+}
+
+a:focus {
+  outline: 2px solid var(--primary-light);
+  outline-offset: 2px;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+button, input, textarea, select {
+  font: inherit;
+  touch-action: manipulation;
+}
+
+button, 
+[role="button"] {
+  cursor: pointer;
+}
+
+/* ===== TYPOGRAPHY ===== */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-secondary);
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: var(--space-md);
+  color: var(--gray-900);
+}
+
+h1 {
+  font-size: clamp(2rem, 5vw, 3rem);
+  letter-spacing: -0.025em;
+}
+
+h2 {
+  font-size: clamp(1.5rem, 4vw, 2.25rem);
+  letter-spacing: -0.025em;
+}
+
+h3 {
+  font-size: clamp(1.25rem, 3vw, 1.75rem);
+}
+
+h4 {
+  font-size: clamp(1.125rem, 2vw, 1.5rem);
+}
+
+h5 {
+  font-size: clamp(1rem, 1.5vw, 1.25rem);
+}
+
+h6 {
+  font-size: 1rem;
+}
+
+p {
+  margin-bottom: var(--space-md);
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* ===== LAYOUT & CONTAINERS ===== */
+.container {
+  width: 100%;
+  max-width: var(--container-xl);
+  margin: 0 auto;
+  padding: 0 var(--space-md);
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding: 0 var(--space-lg);
+  }
+}
+
+section {
+  padding: var(--space-xl) 0;
+}
+
+@media (min-width: 768px) {
+  section {
+    padding: var(--space-xxl) 0;
+  }
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -0.5rem;
+}
+
+.col {
+  flex: 1;
+  padding: 0 0.5rem;
+}
+
+/* ===== HEADER & NAVIGATION ===== */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: var(--shadow-sm);
+  z-index: 1000;
+  padding: var(--space-sm) var(--space-md);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  header {
+    padding: var(--space-md) var(--space-xl);
+  }
+}
+
+.image-container {
+  display: flex;
+  align-items: center;
+  z-index: 1001;
+}
+
+.image-container img {
+  height: 40px;
+  width: auto;
+}
+
+@media (min-width: 768px) {
+  .image-container img {
+    height: 50px;
+  }
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  gap: var(--space-xl);
+}
+
+nav ul {
+  display: flex;
+  gap: var(--space-lg);
+}
+
+nav a {
+  color: var(--gray-800);
+  font-weight: 500;
+  position: relative;
+  padding: var(--space-xs) 0;
+}
+
+nav a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: var(--primary);
+  transition: width var(--transition-normal);
+}
+
+nav a:hover, nav a:focus {
+  color: var(--primary);
+}
+
+nav a:hover::after, nav a:focus::after {
+  width: 100%;
+}
+
+.btns {
+  display: flex;
+  gap: var(--space-md);
+}
+
+.btns button {
+  background: none;
+  border: none;
+  padding: 0;
+}
+
+.btns button:first-child a {
+  color: var(--primary);
+  font-weight: 600;
+  padding: var(--space-sm) var(--space-md);
+}
+
+.btns button:last-child a {
+  background-color: var(--primary);
+  color: white;
+  padding: var(--space-sm) var(--space-md);
+  border-radius: var(--radius-md);
+  font-weight: 600;
+  transition: all var(--transition-normal);
+  display: inline-block;
+}
+
+@media (min-width: 768px) {
+  .btns button:last-child a {
+    padding: var(--space-sm) var(--space-lg);
+  }
+}
+
+.btns button:last-child a:hover, .btns button:last-child a:focus {
+  background-color: var(--primary-dark);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.menu {
+  display: block;
+  position: relative;
+  width: 30px;
+  height: 24px;
+  cursor: pointer;
+  z-index: 1001;
+}
+
+@media (min-width: 1024px) {
+  .menu {
+    display: none;
+  }
+}
+
+.hamburger, .hamburger::before, .hamburger::after {
+  position: absolute;
+  width: 30px;
+  height: 3px;
+  background-color: var(--gray-800);
+  border-radius: var(--radius-sm);
+  transition: all var(--transition-normal);
+}
+
+.hamburger {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.hamburger::before, .hamburger::after {
+  content: '';
+  left: 0;
+}
+
+.hamburger::before {
+  top: -8px;
+}
+
+.hamburger::after {
+  bottom: -8px;
+}
+
+.toggle-menu {
+  position: absolute;
+  width: 30px;
+  height: 24px;
+  opacity: 0;
+  cursor: pointer;
+  z-index: 1002;
+}
+
+.toggle-menu:checked ~ .hamburger {
+  background-color: transparent;
+}
+
+.toggle-menu:checked ~ .hamburger::before {
+  top: 0;
+  transform: rotate(45deg);
+}
+
+.toggle-menu:checked ~ .hamburger::after {
+  bottom: 0;
+  transform: rotate(-45deg);
+}
+
+/* Mobile Navigation */
+@media (max-width: 1023px) {
+  .nav-container {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 80%;
+    max-width: 400px;
+    height: 100vh;
+    background-color: white;
+    flex-direction: column;
+    justify-content: center;
+    padding: var(--space-xxl) var(--space-lg);
+    box-shadow: var(--shadow-lg);
+    transition: right var(--transition-normal);
+    z-index: 999;
+  }
+  
+  .toggle-menu:checked ~ .nav-container {
+    right: 0;
+  }
+  
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-xl);
+  }
+  
+  nav a {
+    font-size: 1.25rem;
+    padding: var(--space-sm);
+  }
+  
+  .btns {
+    flex-direction: column;
+    width: 100%;
+    margin-top: var(--space-xl);
+  }
+  
+  .btns button {
+    width: 100%;
+  }
+  
+  .btns button a {
+    display: block;
+    text-align: center;
+    padding: var(--space-md) !important;
+  }
+}
+
+/* ===== HERO SECTION ===== */
+#hero-section {
+  min-height: 100vh;
+  background: linear-gradient(135deg, var(--gray-50) 0%, var(--gray-200) 100%);
+  display: flex;
+  flex-direction: column;
+  padding-top: 70px; /* Account for fixed header */
+  position: relative;
+  overflow: hidden;
+}
+
+#hero-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('/placeholder.svg?height=800&width=800');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.05;
+  z-index: 0;
+}
+
+.home-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: var(--space-lg) var(--space-md);
+  position: relative;
+  z-index: 1;
+}
+
+@media (min-width: 768px) {
+  .home-section {
+    padding: var(--space-xxl) var(--space-xl);
+  }
+}
+
+.heading {
+  max-width: 800px;
+  margin-bottom: var(--space-xl);
+}
+
+@media (min-width: 768px) {
+  .heading {
+    margin-bottom: var(--space-xxl);
+  }
+}
+
+.heading h1 {
+  margin-bottom: var(--space-md);
+  background: linear-gradient(to right, var(--primary), var(--secondary));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.heading p {
+  font-size: clamp(1.125rem, 2vw, 1.5rem);
+  color: var(--gray-600);
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-lg);
+  width: 100%;
+  max-width: 1000px;
+}
+
+@media (min-width: 768px) {
+  .options {
+    flex-direction: row;
+    gap: var(--space-xl);
+  }
+}
+
+.option {
+  flex: 1;
+  background-color: white;
+  padding: var(--space-lg);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-lg);
+  display: flex;
+  flex-direction: column;
+  transition: all var(--transition-normal);
+}
+
+@media (min-width: 768px) {
+  .option {
+    padding: var(--space-xl);
+  }
+}
+
+.option:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-xl);
+}
+
+.option h2 {
+  color: var(--primary);
+  margin-bottom: var(--space-md);
+}
+
+.option p {
+  flex: 1;
+  margin-bottom: var(--space-lg);
+}
+
+.option button {
+  background-color: var(--primary);
+  color: white;
+  border: none;
+  padding: var(--space-md);
+  border-radius: var(--radius-md);
+  font-weight: 600;
+  cursor: pointer;
+  transition: all var(--transition-normal);
+  width: 100%;
+}
+
+.option button:hover, .option button:focus {
+  background-color: var(--primary-dark);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.option button a {
+  color: white;
+  display: block;
+}
+
+/* ===== FEATURES SECTION ===== */
+.features {
+  text-align: center;
+  padding: var(--space-xl) var(--space-md);
+  background-color: white;
+}
+
+@media (min-width: 768px) {
+  .features {
+    padding: var(--space-xxl) var(--space-xl);
+  }
+}
+
+.features h1 {
+  margin-bottom: var(--space-md);
+  color: var(--primary);
+}
+
+.features > p {
+  max-width: 700px;
+  margin: 0 auto var(--space-xl);
+  color: var(--gray-600);
+}
+
+@media (min-width: 768px) {
+  .features > p {
+    margin-bottom: var(--space-xxl);
+  }
+}
+
+.carousel-container {
+  overflow: hidden;
+  padding: var(--space-md) 0;
+}
+
+.inner {
+  display: flex;
+  gap: var(--space-md);
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none; /* Firefox */
+  padding-bottom: var(--space-md);
+}
+
+.inner::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+
+@media (min-width: 768px) {
+  .inner {
+    gap: var(--space-lg);
+  }
+}
+
+.box {
+  flex: 0 0 280px;
+  height: 200px;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  position: relative;
+  box-shadow: var(--shadow-md);
+  transition: all var(--transition-normal);
+  scroll-snap-align: start;
+}
+
+@media (min-width: 768px) {
+  .box {
+    flex: 0 0 300px;
+  }
+}
+
+.box:hover {
+  transform: translateY(-10px);
+  box-shadow: var(--shadow-lg);
+}
+
+.box .content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: var(--space-lg);
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
+  color: white;
+  text-align: left;
+}
+
+.box .content h3 {
+  color: white;
+  margin-bottom: var(--space-sm);
+}
+
+/* Box backgrounds with images */
+#colorWheel {
+  background-image: url('/placeholder.svg?height=400&width=600');
+  background-size: cover;
+  background-position: center;
+}
+
+#domain {
+  background-image: url('/placeholder.svg?height=400&width=600');
+  background-size: cover;
+  background-position: center;
+}
+
+#data {
+  background-image: url('/placeholder.svg?height=400&width=600');
+  background-size: cover;
+  background-position: center;
+}
+
+#whitelabeled {
+  background-image: url('/placeholder.svg?height=400&width=600');
+  background-size: cover;
+  background-position: center;
+}
+
+#custom-css {
+  background-image: url('/placeholder.svg?height=400&width=600');
+  background-size: cover;
+  background-position: center;
+}
+
+#no-code {
+  background-image: url('/placeholder.svg?height=400&width=600');
+  background-size: cover;
+  background-position: center;
+}
+
+#revert-change {
+  background-image: url('/placeholder.svg?height=400&width=600');
+  background-size: cover;
+  background-position: center;
+}
+
+/* ===== TEMPLATES SECTION ===== */
+.templates {
+  padding: var(--space-xl) var(--space-md);
+  background-color: var(--gray-100);
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .templates {
+    padding: var(--space-xxl) var(--space-xl);
+  }
+}
+
+.templates h1 {
+  margin-bottom: var(--space-xl);
+  color: var(--primary);
+}
+
+@media (min-width: 768px) {
+  .templates h1 {
+    margin-bottom: var(--space-xxl);
+  }
+}
+
+.swiper-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.swiper-inner {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xl);
+}
+
+@media (min-width: 768px) {
+  .swiper-inner {
+    gap: var(--space-xxl);
+  }
+}
+
+.mySwiper {
+  overflow: hidden;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-lg);
+}
+
+.content.swiper-slide img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.info {
+  background-color: white;
+  padding: var(--space-md);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .info {
+    padding: var(--space-lg);
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.info h2 {
+  margin-bottom: 0;
+}
+
+.info button {
+  background-color: var(--primary);
+  color: white;
+  border: none;
+  padding: var(--space-sm) var(--space-lg);
+  border-radius: var(--radius-md);
+  font-weight: 600;
+  cursor: pointer;
+  transition: all var(--transition-normal);
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .info button {
+    width: auto;
+  }
+}
+
+.info button:hover, .info button:focus {
+  background-color: var(--primary-dark);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.info button a {
+  color: white;
+  display: block;
+}
+
+/* ===== FEATURES VERSION 2 SECTION ===== */
+.ft-vrsn-2 {
+  padding: var(--space-xl) var(--space-md);
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .ft-vrsn-2 {
+    padding: var(--space-xxl) var(--space-xl);
+  }
+}
+
+.ft-vrsn-2 h1 {
+  margin-bottom: var(--space-xl);
+  color: var(--primary);
+}
+
+@media (min-width: 768px) {
+  .ft-vrsn-2 h1 {
+    margin-bottom: var(--space-xxl);
+  }
+}
+
+.ft {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-lg);
+  margin-bottom: var(--space-xl);
+  padding: var(--space-lg);
+  border-radius: var(--radius-lg);
+  background-color: white;
+  box-shadow: var(--shadow-md);
+  transition: all var(--transition-normal);
+}
+
+@media (min-width: 768px) {
+  .ft {
+    flex-direction: row;
+    align-items: center;
+    gap: var(--space-xl);
+    padding: var(--space-xl);
+    margin-bottom: var(--space-xxl);
+  }
+  
+  .ft:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+}
+
+.ft:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-lg);
+}
+
+.ft-img {
+  flex: 1;
+  overflow: hidden;
+  border-radius: var(--radius-md);
+  height: 200px;
+}
+
+@media (min-width: 768px) {
+  .ft-img {
+    height: 300px;
+  }
+}
+
+.ft-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform var(--transition-normal);
+}
+
+.ft:hover .ft-img img {
+  transform: scale(1.05);
+}
+
+.ft-info {
+  flex: 1;
+  text-align: left;
+  padding: var(--space-md) 0;
+}
+
+@media (min-width: 768px) {
+  .ft-info {
+    padding: var(--space-lg);
+  }
+}
+
+.ft-info h3 {
+  color: var(--primary);
+  margin-bottom: var(--space-md);
+}
+
+/* ===== WORKING SECTION ===== */
+.working {
+  padding: var(--space-xl) var(--space-md);
+  background-color: var(--gray-100);
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .working {
+    padding: var(--space-xxl) var(--space-xl);
+  }
+}
+
+.working h1 {
+  margin-bottom: var(--space-xl);
+  color: var(--primary);
+}
+
+@media (min-width: 768px) {
+  .working h1 {
+    margin-bottom: var(--space-xxl);
+  }
+}
+
+.working-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-lg);
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+@media (min-width: 640px) {
+  .working-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .working-container {
+    grid-template-columns: repeat(5, 1fr);
+    gap: var(--space-xl);
+  }
+}
+
+.working-item {
+  background-color: white;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
+  transition: all var(--transition-normal);
+}
+
+.working-item:hover {
+  transform: translateY(-10px);
+  box-shadow: var(--shadow-lg);
+}
+
+.working-item h3 {
+  padding: var(--space-md);
+  background-color: var(--primary);
+  color: white;
+  margin-bottom: 0;
+}
+
+.working-item img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+/* ===== CHOOSE US SECTION ===== */
+.choose-us-section {
+  padding: var(--space-xl) var(--space-md);
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .choose-us-section {
+    padding: var(--space-xxl) var(--space-xl);
+  }
+}
+
+.choose-us-section h2 {
+  color: var(--primary);
+  margin-bottom: var(--space-md);
+}
+
+.choose-us-section > p {
+  max-width: 700px;
+  margin: 0 auto var(--space-xl);
+  color: var(--gray-600);
+}
+
+@media (min-width: 768px) {
+  .choose-us-section > p {
+    margin-bottom: var(--space-xxl);
+  }
+}
+
+.choose-inner {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xl);
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .choose-inner {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+.choose-content {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-md);
+}
+
+@media (min-width: 640px) {
+  .choose-content {
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-lg);
+  }
+}
+
+.content-item {
+  background-color: white;
+  padding: var(--space-lg);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  transition: all var(--transition-normal);
+  text-align: left;
+  height: 100%;
+}
+
+.content-item:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-md);
+}
+
+.content-item h4 {
+  color: var(--primary);
+  margin-bottom: var(--space-sm);
+}
+
+.choose-us-image {
+  flex: 1;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-lg);
+}
+
+.choose-us-image img {
+  width: 100%;
+  height: auto;
+  transition: transform var(--transition-slow);
+}
+
+.choose-us-image:hover img {
+  transform: scale(1.05);
+}
+
+/* ===== PRICING SECTION ===== */
+.plan-selection-container {
+  padding: var(--space-xl) var(--space-md);
+  background-color: var(--gray-100);
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .plan-selection-container {
+    padding: var(--space-xxl) var(--space-xl);
+  }
+}
+
+.welcome-text h1 {
+  color: var(--primary);
+  margin-bottom: var(--space-sm);
+}
+
+.welcome-text h2 {
+  margin-bottom: var(--space-md);
+}
+
+.trial-info {
+  max-width: 700px;
+  margin: 0 auto var(--space-lg);
+  color: var(--gray-600);
+}
+
+.points {
+  margin-bottom: var(--space-xl);
+}
+
+.points p {
+  margin-bottom: var(--space-sm);
+}
+
+.points p.credit {
+  font-weight: 700;
+  color: var(--primary);
+}
+
+.points p span {
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.pricing {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-lg);
+  max-width: 1000px;
+  margin: 0 auto var(--space-xl);
+}
+
+@media (min-width: 768px) {
+  .pricing {
+    flex-direction: row;
+    gap: var(--space-xl);
+  }
+}
+
+.plan-options {
+  flex: 1;
+  background-color: white;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
+  transition: all var(--transition-normal);
+}
+
+.plan-options:hover {
+  transform: translateY(-10px);
+  box-shadow: var(--shadow-lg);
+}
+
+.plan-options h3 {
+  padding: var(--space-md);
+  background-color: var(--primary);
+  color: white;
+  margin-bottom: 0;
+}
+
+.plan-option {
+  padding: var(--space-lg);
+  border-bottom: 1px solid var(--gray-200);
+}
+
+.label {
+  text-align: left;
+}
+
+.label div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--space-sm);
+}
+
+.label span {
+  font-weight: 600;
+  color: var(--gray-700);
+}
+
+.label h2 {
+  margin-bottom: 0;
+  color: var(--primary);
+}
+
+.continue-button {
+  padding: var(--space-lg);
+}
+
+.continue-button button {
+  width: 100%;
+  background-color: var(--primary);
+  color: white;
+  border: none;
+  padding: var(--space-md);
+  border-radius: var(--radius-md);
+  font-weight: 600;
+  cursor: pointer;
+  transition: all var(--transition-normal);
+}
+
+.continue-button button:hover, .continue-button button:focus {
+  background-color: var(--primary-dark);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.continue-button button a {
+  color: white;
+  display: block;
+}
+
+.note {
+  color: var(--gray-600);
+}
+
+.note span {
+  font-weight: 700;
+  color: var(--primary);
+}
+
+/* ===== FAQ SECTION ===== */
+.faq-section {
+  padding: var(--space-xl) var(--space-md);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .faq-section {
+    padding: var(--space-xxl) var(--space-xl);
+  }
+}
+
+.faq-title {
+  text-align: center;
+  color: var(--primary);
+  margin-bottom: var(--space-sm);
+}
+
+.faq-description {
+  text-align: center;
+  color: var(--gray-600);
+  margin-bottom: var(--space-xl);
+}
+
+@media (min-width: 768px) {
+  .faq-description {
+    margin-bottom: var(--space-xxl);
+  }
+}
+
+.faq-item {
+  margin-bottom: var(--space-md);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+  background-color: white;
+}
+
+.faq-question {
+  width: 100%;
+  text-align: left;
+  padding: var(--space-md) var(--space-lg);
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+  color: var(--gray-800);
+  transition: background-color var(--transition-normal);
+}
+
+.faq-question:hover, .faq-question:focus {
+  background-color: var(--gray-100);
+}
+
+.faq-question .arrow {
+  transition: transform var(--transition-normal);
+}
+
+.faq-question[aria-expanded="true"] .arrow {
+  transform: rotate(180deg);
+}
+
+.faq-answer {
+  padding: 0 var(--space-lg);
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height var(--transition-normal), padding var(--transition-normal);
+}
+
+.faq-answer.active {
+  padding: 0 var(--space-lg) var(--space-lg);
+  max-height: 500px;
+}
+
+/* ===== FOOTER ===== */
+.footer {
+  background-color: var(--gray-900);
+  color: white;
+  padding: var(--space-xl) var(--space-md) var(--space-lg);
+}
+
+@media (min-width: 768px) {
+  .footer {
+    padding: var(--space-xxl) var(--space-xl) var(--space-lg);
+  }
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-lg);
+  max-width: 1200px;
+  margin: 0 auto var(--space-lg);
+}
+
+@media (min-width: 640px) {
+  .footer-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .footer-container {
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: var(--space-xl);
+    margin-bottom: var(--space-xl);
+  }
+}
+
+.footer-col h4 {
+  color: white;
+  margin-bottom: var(--space-md);
+  position: relative;
+  padding-bottom: var(--space-sm);
+}
+
+.footer-col h4::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 50px;
+  height: 2px;
+  background-color: var(--primary);
+}
+
+.company-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-logo {
+  width: 120px;
+  height: auto;
+  margin-bottom: var(--space-md);
+}
+
+.footer-col ul {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+
+.footer-col a {
+  color: var(--gray-400);
+  transition: color var(--transition-normal);
+}
+
+.footer-col a:hover, .footer-col a:focus {
+  color: white;
+}
+
+.social-icons {
+  display: flex;
+  gap: var(--space-md);
+}
+
+.social-icons a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: var(--radius-full);
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: all var(--transition-normal);
+}
+
+.social-icons a:hover, .social-icons a:focus {
+  background-color: var(--primary);
+  transform: translateY(-3px);
+}
+
+.social-icons i {
+  font-size: 1.25rem;
+}
+
+.copyright {
+  text-align: center;
+  color: var(--gray-500);
+  margin-bottom: 0;
+  padding-top: var(--space-lg);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.copyright span {
+  color: var(--gray-300);
+}
+
+/* ===== POPUP ===== */
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.9);
+  background-color: white;
+  padding: var(--space-lg);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-xl);
+  z-index: 2000;
+  width: 90%;
+  max-width: 600px;
+  opacity: 0;
+  visibility: hidden;
+  transition: all var(--transition-normal);
+}
+
+@media (min-width: 768px) {
+  .popup {
+    padding: var(--space-xl);
+  }
+}
+
+.popup.active {
+  opacity: 1;
+  visibility: visible;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.popup h1 {
+  text-align: center;
+  margin-bottom: var(--space-lg);
+  color: var(--primary);
+}
+
+@media (min-width: 768px) {
+  .popup h1 {
+    margin-bottom: var(--space-xl);
+  }
+}
+
+.close {
+  position: absolute;
+  top: var(--space-md);
+  right: var(--space-md);
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: var(--gray-600);
+  transition: color var(--transition-normal);
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-full);
+}
+
+.close:hover, .close:focus {
+  color: var(--danger);
+  background-color: var(--gray-100);
+}
+
+.basic-info {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+  margin-bottom: var(--space-lg);
+}
+
+@media (min-width: 768px) {
+  .basic-info {
+    margin-bottom: var(--space-xl);
+  }
+}
+
+.basic-info label {
+  font-weight: 500;
+  margin-bottom: var(--space-xs);
+  display: block;
+}
+
+.basic-info input,
+.basic-info select,
+.basic-info textarea {
+  width: 100%;
+  padding: var(--space-md);
+  border: 1px solid var(--gray-300);
+  border-radius: var(--radius-md);
+  transition: all var(--transition-normal);
+}
+
+.basic-info input:focus,
+.basic-info select:focus,
+.basic-info textarea:focus {
+  outline: none;
+  border-color: var(--primary);
+  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.2);
+}
+
+.basic-info select {
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='none' viewBox='0 0 24 24' stroke='%236c757d'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M19 9l-7 7-7-7'%3E%3C/path%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right var(--space-md) center;
+  padding-right: var(--space-xl);
+}
+
+.submit {
+  text-align: center;
+}
+
+.submit a {
+  display: inline-block;
+  background-color: var(--primary);
+  color: white;
+  padding: var(--space-md) var(--space-xl);
+  border-radius: var(--radius-md);
+  font-weight: 600;
+  cursor: pointer;
+  transition: all var(--transition-normal);
+  width: 100%;
+  max-width: 300px;
+}
+
+.submit a:hover, .submit a:focus {
+  background-color: var(--primary-dark);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+/* ===== COOKIE BOARD ===== */
+#cookieBoard {
+  position: fixed;
+  bottom: var(--space-lg);
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: white;
+  padding: var(--space-lg);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-lg);
+  z-index: 1000;
+  width: 90%;
+  max-width: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-md);
+  align-items: center;
+}
+
+#cookieBoard h4 {
+  flex: 1 0 100%;
+  margin-bottom: var(--space-md);
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+#cookieBoard button {
+  padding: var(--space-sm) var(--space-lg);
+  border: none;
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  font-weight: 600;
+  transition: all var(--transition-normal);
+}
+
+#cookieBoard button:first-of-type {
+  background-color: var(--primary);
+  color: white;
+}
+
+#cookieBoard button:first-of-type:hover, #cookieBoard button:first-of-type:focus {
+  background-color: var(--primary-dark);
+  transform: translateY(-2px);
+}
+
+#cookieBoard button.close {
+  background-color: var(--gray-200);
+  color: var(--gray-700);
+  position: static;
+  width: auto;
+  height: auto;
+}
+
+#cookieBoard button.close:hover, #cookieBoard button.close:focus {
+  background-color: var(--gray-300);
+}
+
+/* ===== ANIMATIONS ===== */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.5s ease forwards;
+}
+
+/* Add animation delays for staggered entrance */
+.animate-delay-1 {
+  animation-delay: 0.1s;
+}
+
+.animate-delay-2 {
+  animation-delay: 0.2s;
+}
+
+.animate-delay-3 {
+  animation-delay: 0.3s;
+}
+
+.animate-delay-4 {
+  animation-delay: 0.4s;
+}
+
+.animate-delay-5 {
+  animation-delay: 0.5s;
+}
+
+/* ===== TOUCH OPTIMIZATIONS ===== */
+@media (hover: none) {
+  /* Increase touch targets for mobile */
+  button, 
+  a,
+  .faq-question,
+  .close,
+  input[type="checkbox"],
+  input[type="radio"] {
+    min-height: 44px;
+    min-width: 44px;
+  }
+  
+  /* Remove hover effects that might cause issues on touch devices */
+  .option:hover,
+  .ft:hover,
+  .box:hover,
+  .working-item:hover,
+  .content-item:hover,
+  .plan-options:hover {
+    transform: none;
+  }
+}
+
+/* ===== ACCESSIBILITY IMPROVEMENTS ===== */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+:focus {
+  outline: 2px solid var(--primary);
+  outline-offset: 2px;
+}
+
+:focus:not(:focus-visible) {
+  outline: none;
+}
+
+:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 2px;
+}
+
+
+</style>
+<body>
+<div class="popup" id="popup">
+    <h1>Fill out Details</h1>
+    <div onclick="submitForm(event)" class="close">
+        <h2>&#10005</h2>
+    </div>
+    <form id="enquiryForm">
+        <div class="basic-info">
+            <label for="firstName">1. Please enter your full name:</label>
+            <input type="text" class="firstName" required name="firstName" id="firstName"/>
+
+            <label for="email">2. Please provide your email address:</label>
+            <input type="email" name="email" required id="email">
+
+            <label for="mobile">3. Enter your contact number:</label>
+            <select name="country" required id="country">
+                <option value="91">India</option>
+                <option value="00">Others</option>
+            </select>
+
+            <input type="text" name="mobile" required id="mobile">
+            <label for="enquiryProduct"></label>
+            <select name="enquiryProduct" required id="enquiryProduct">
+                <option value="Single page Static website">Single page Static website</option>
+            </select>
+
+            <label for="enquiryDescription">4. Describe the website you would like us to create:</label>
+            <textarea name="enquiryDescription" required id="enquiryDescription" rows="5"></textarea>
+        </div>
+        <div class="submit">
+            <a onclick="submitEnquiryForm()">Submit</a>
+        </div>
+    </form>
+</div>
+<div id="hero-section">
+    <header>
+        <div class="image-container">
+            <img src="https://rs.turn2web.com/site/turn2web/assets/img/logo.jpg" alt="logo"/>
+        </div>
+        <div class="menu">
+            <input type="checkbox" class="toggle-menu"/>
+            <div class="hamburger"></div>
+        </div>
+        <div class="nav-container">
+            <nav>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/platform">Platform</a></li>
+                </ul>
+            </nav>
+            <div class="btns">
+                <button><a href="/login" class="">SignIn</a></button>
+                <button><a href="/registration/user" class=""> SignUp</a></button>
+            </div>
+        </div>
+    </header>
+    <section id="home-section" class="home-section">
+        <div class="heading">
+            <h1>Create your professional website easily</h1>
+            <p>Simple, single page static website!</p>
+
+        </div>
+        <div class="options">
+            <div class="option">
+                <h2>Create It Yourself</h2>
+                <p>
+                    Choose a template, customize it to match your brand, and launch
+                    your professional website, no technical skills needed!
+                </p>
+                <button><a href="/registration/user">Create Yourself Free!</a></button>
+            </div>
+            <div class="option">
+                <h2>Let Us Build It for You</h2>
+                <p>
+                    'Let Us Build It for You, we'll create a custom, single-page
+                    website that's ready to go-perfectly tailored to your needs.
+                </p>
+                <button onclick="showPopup()"><a href="#">Let Us Build</a></button>
+            </div>
+        </div>
+    </section>
+</div>
+<section class="features">
+    <h1>Create, Customize, Connect</h1>
+    <p>
+        Our website builder empowers you with complete freedom to design, host,
+        and connect your site effortlessly.
+    </p>
+    <div class="carousel-container swiper-container">
+        <div class="swiper-wrapper inner">
+            <div id="colorWheel" class="box swiper-slide">
+                <div class="content">
+                    <h3>Color Wheel</h3>
+                    <p>
+                        Effortlessly choose the perfect website colors with our
+                        intuitive wheel.
+                    </p>
+                </div>
+            </div>
+            <div class="box swiper-slide" id="domain">
+                <div class="content">
+                    <h3>Domain</h3>
+                    <p>
+                        Connect your website to a custom domain easily with few clicks.
+                    </p>
+                </div>
+            </div>
+            <div class="box swiper-slide" id="data">
+                <div class="content">
+                    <h3>Content</h3>
+                    <p>
+                        Update, edit, and customize data easily with forms and inline
+                        editor.
+                    </p>
+                </div>
+            </div>
+            <div class="box swiper-slide" id="whitelabeled">
+                <div class="content">
+                    <h3>White Labeled</h3>
+                    <p>
+                        White-labeled websites with no Turn2Web branding or footer
+                        promotion.
+                    </p>
+                </div>
+            </div>
+            <div class="box swiper-slide" id="custom-css">
+                <div class="content">
+                    <h3>Custom CSS</h3>
+                    <p>
+                        Style your website easily with custom CSS and live previews.
+                    </p>
+                </div>
+            </div>
+            <div class="box swiper-slide" id="no-code">
+                <div class="content">
+                    <h3>No Coding</h3>
+                    <p>
+                        Style your website with reusable and replaceable custom styles.
+                    </p>
+                </div>
+            </div>
+            <div class="box swiper-slide" id="revert-change">
+                <div class="content">
+                    <h3>Restore</h3>
+                    <p>
+                        Easily undo changes and restore data with "Revert Changes"
+                        option.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="templates">
+    <h1>Explore Templates</h1>
+    <div class="swiper-container">
+        <div class="swiper-inner">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="content swiper-slide">
+                        <img src="https://rs.turn2web.com/site/turn2web/assets/img/portfolio1.png" alt=""/>
+                    </div>
+                    <div class="content swiper-slide">
+                        <img src="https://rs.turn2web.com/site/turn2web/assets/img/portfolio2.png" alt=""/>
+                    </div>
+                    <div class="content swiper-slide">
+                        <img src="https://rs.turn2web.com/site/turn2web/assets/img/portfolio3.png" alt=""/>
+                    </div>
+                    <div class="content swiper-slide">
+                        <img src="https://rs.turn2web.com/site/turn2web/assets/img/portfolio4.png" alt=""/>
+                    </div>
+                    <div class="content swiper-slide">
+                        <img src="https://rs.turn2web.com/site/turn2web/assets/img/portfolio5.png" alt=""/>
+                    </div>
+                    <div class="content swiper-slide">
+                        <img src="https://rs.turn2web.com/site/turn2web/assets/img/portfolio6.png" alt=""/>
+                    </div>
+                </div>
+                <div class="info">
+                    <h2>Portfolio</h2>
+                    <button>
+                        <a
+                                href="https://turn2web.com/live/demo/c/Portfolio"
+                                target="_blank"
+                        >Explore more</a
+                        >
+                    </button>
+                </div>
+            </div>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="content swiper-slide">
+                        <img src="https://rs.turn2web.com/site/turn2web/assets/img/comingsoon1.png" alt=""/>
+                    </div>
+                    <div class="content swiper-slide">
+                        <img src="https://rs.turn2web.com/site/turn2web/assets/img/comingsoon2.png" alt=""/>
+                    </div>
+                    <div class="content swiper-slide">
+                        <img src="https://rs.turn2web.com/site/turn2web/assets/img/comingsoon3.png" alt=""/>
+                    </div>
+                    <div class="content swiper-slide">
+                        <img src="https://rs.turn2web.com/site/turn2web/assets/img/comingsoon4.png" alt=""/>
+                    </div>
+                    <div class="content swiper-slide">
+                        <img src="https://rs.turn2web.com/site/turn2web/assets/img/comingsoon5.png" alt=""/>
+                    </div>
+                    <div class="content swiper-slide">
+                        <img src="https://rs.turn2web.com/site/turn2web/assets/img/comingsoon6.png" alt=""/>
+                    </div>
+                </div>
+                <div class="info">
+                    <h2>Coming Soon</h2>
+                    <button>
+                        <a
+                                href="https://turn2web.com/live/demo/c/ComingSoon"
+                                target="_blank"
+                        >Explore more</a
+                        >
+                    </button>
+                </div>
+            </div>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="content swiper-slide">
+                        <img src="https://rs.turn2web.com/site/turn2web/assets/img/profile1.png" alt=""/>
+                    </div>
+                    <div class="content swiper-slide">
+                        <img src="https://rs.turn2web.com/site/turn2web/assets/img/profile2.png" alt=""/>
+                    </div>
+                    <div class="content swiper-slide">
+                        <img src="https://rs.turn2web.com/site/turn2web/assets/img/profile3.png" alt=""/>
+                    </div>
+                    <div class="content swiper-slide">
+                        <img src="https://rs.turn2web.com/site/turn2web/assets/img/profile4.png" alt=""/>
+                    </div>
+                    <div class="content swiper-slide">
+                        <img src="https://rs.turn2web.com/site/turn2web/assets/img/profile5.png" alt=""/>
+                    </div>
+                </div>
+                <div class="info">
+                    <h2>Profile Card</h2>
+                    <button>
+                        <a
+                                href="https://turn2web.com/live/demo/c/Profile%20Card"
+                                target="_blank"
+                        >Explore more</a
+                        >
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="ft-vrsn-2">
+    <h1>Features</h1>
+    <div class="responsive ft">
+        <div class="responsive-img ft-img">
+            <img
+                    src="https://rs.turn2web.com/site/turn2web/assets/img/responsive.jpeg"
+                    alt="responsive image"
+            />
+        </div>
+        <div class="responsive-info ft-info">
+            <h3>Responsive</h3>
+            <p>
+                At our company, we specialize in delivering fully responsive
+                websites that provide seamless user experiences across all devices.
+                Whether viewed on a desktop, tablet, or mobile phone, our designs
+                automatically adjust to fit the screen size, ensuring that your
+                website looks stunning and functions flawlessly everywhere.With our
+                responsive design approach, you can be confident that your website
+                will captivate users on any device.
+            </p>
+        </div>
+    </div>
+    <div class="seo-customization ft">
+        <div class="seo-img ft-img">
+            <img src="https://rs.turn2web.com/site/turn2web/assets/img/SEO.jpeg" alt="seo image"/>
+        </div>
+        <div class="seo-info ft-info">
+            <h3>SEO Customization</h3>
+            <p>
+                Our website builder provides SEO customization support, empowering
+                you to optimize your site for search engines effortlessly. From
+                custom meta tags and URLs to advanced keyword settings, you have
+                moderate control over the SEO elements that matter most. Boost your
+                siteâs visibility and ranking with ease, ensuring your content
+                reaches the right audience.
+            </p>
+        </div>
+    </div>
+    <div class="animations ft">
+        <div class="animations-img ft-img">
+            <img
+                    src="https://rs.turn2web.com/site/turn2web/assets/img/animations.jpeg"
+                    alt="animations image"
+            />
+        </div>
+        <div class="animations-info ft-info">
+            <h3>Animations</h3>
+            <p>
+                Our website builder not only offers powerful onload and onscroll
+                animations but also gives you the flexibility to create your own
+                custom animations using CSS. Whether you want to use our pre-built
+                animations for quick and easy enhancements or design unique
+                animations tailored to your style, the choice is yours. Bring your
+                content to life and captivate your audience with dynamic,
+                personalized effects that suit your websiteâs needs.
+            </p>
+        </div>
+    </div>
+    <div class="background ft">
+        <div class="background-img ft-img">
+            <img
+                    src="https://rs.turn2web.com/site/turn2web/assets/img/backgrounds.jpeg"
+                    alt="background image"
+            />
+        </div>
+        <div class="background-info ft-info">
+            <h3>Backgrounds</h3>
+            <p>
+                Our website builder offers a wide variety of background options to
+                help you create a visually appealing and unique site. Whether you
+                prefer images, videos, gradients, or solid colors, you have full
+                control to customize the backdrop of your web pages. Plus, with many
+                other design features like customizable layouts, fonts, and
+                interactive elements, you can craft a website that perfectly matches
+                your style and vision. Elevate your site's appearance with ease and
+                create a memorable experience for your visitors!
+            </p>
+        </div>
+    </div>
+    <div class="form ft">
+        <div class="form-img ft-img">
+            <img src="https://rs.turn2web.com/site/turn2web/assets/img/form.jpeg" alt="form image"/>
+        </div>
+        <div class="form-info ft-info">
+            <h3>Enquiry Forms</h3>
+            <p>
+                Our website builder includes pre-built inquiry forms with flexible
+                options, making it simple to collect information and engage with
+                your visitors. Customize these forms to fit your specific needs,
+                from adding new fields to adjusting layouts and styles, all without
+                any coding required. Whether you're looking to gather leads,
+                feedback, or service requests, our easy-to-use forms provide the
+                perfect solution for your business. With full control over form
+                settings and integrations.
+            </p>
+        </div>
+    </div>
+    <div class="deployment ft">
+        <div class="deployment-img ft-img">
+            <img
+                    src="https://rs.turn2web.com/site/turn2web/assets/img/deployment.jpeg"
+                    alt="deployment image"
+            />
+        </div>
+        <div class="deployment-info ft-info">
+            <h3>Secure Deployment</h3>
+            <p>
+                Our website builder ensures secure deployment, giving you peace of
+                mind knowing your site is protected from potential threats. With
+                built-in security features like SSL encryption, automatic updates,
+                and secure hosting, your website is safeguarded from vulnerabilities
+                right from the start. Our secure deployment process helps you launch
+                your site with confidence.
+            </p>
+        </div>
+    </div>
+    <div class="3rd-party ft">
+        <div class="3rd-party-img ft-img">
+            <img
+                    src="https://rs.turn2web.com/site/turn2web/assets/img/3rd-party.jpeg"
+                    alt="3rd-party image"
+            />
+        </div>
+        <div class="3rd-party-info ft-info">
+            <h3>Third Party Integration</h3>
+            <p>
+                Our website builder fully supports 3rd party integrations, allowing
+                you to seamlessly connect your site with the tools and services you
+                already use. Whether it's marketing platforms, payment gateways,
+                social media, or analytics tools, you can easily integrate them to
+                extend your website's functionality. Enjoy the flexibility to
+                enhance your site with external apps and services.
+            </p>
+        </div>
+    </div>
+    <div class="theme ft">
+        <div class="theme-img ft-img">
+            <img src="https://rs.turn2web.com/site/turn2web/assets/img/themes.jpeg" alt="theme image"/>
+        </div>
+        <div class="theme-info ft-info">
+            <h3>Global Themes</h3>
+            <p>
+                Our global themes are a set of sub-themes grouped together with
+                additional styles layered on top, offering even more customization
+                options. These global themes can be applied to any template in our
+                system, allowing you to create a consistent and polished design
+                throughout your entire site. With a wide variety of sub-themes and
+                extra styling options, you have the flexibility to choose the
+                perfect look that matches your vision while ensuring seamless
+                integration across every page.
+            </p>
+        </div>
+    </div>
+    <div class="rtl ft">
+        <div class="rtl-img ft-img">
+            <img src="https://rs.turn2web.com/site/turn2web/assets/img/rtl.jpeg" alt="rtl image"/>
+        </div>
+        <div class="rtl-info ft-info">
+            <h3>RTL</h3>
+            <p>
+                Our website builder fully supports RTL (Right-to-Left) designs,
+                ensuring that your site works flawlessly in any language. Whether
+                you're creating content in RTL or LTR (Left-to-Right) formats, our
+                builder seamlessly adapts to deliver a smooth and polished design.
+                With flexible layout options and built-in language support, you can
+                easily create a multilingual website that looks professional and
+                functions perfectly for all audiences around the world.
+            </p>
+        </div>
+    </div>
+</section>
+<section class="working">
+    <h1>How It Works</h1>
+    <div class="working-container">
+        <div class="working-item1 working-item">
+            <h3>Select Template</h3>
+            <img src="https://rs.turn2web.com/site/turn2web/assets/img/item1.png" alt="image 1"/>
+        </div>
+
+        <div class="working-item2 working-item">
+            <h3>Update Content</h3>
+            <img src="https://rs.turn2web.com/site/turn2web/assets/img/item2.png" alt="image 2"/>
+        </div>
+
+        <div class="working-item3 working-item">
+            <h3>Style Website</h3>
+            <img src="https://rs.turn2web.com/site/turn2web/assets/img/item3.jpg" alt="image 3"/>
+        </div>
+
+        <div class="working-item4 working-item">
+            <h3>Publish</h3>
+            <img src="https://rs.turn2web.com/site/turn2web/assets/img/item4.png" alt="image 4"/>
+        </div>
+
+        <div class="working-item5 working-item">
+            <h3>Connect Domain</h3>
+            <img src="https://rs.turn2web.com/site/turn2web/assets/img/item5.jpg" alt="image 5"/>
+        </div>
+    </div>
+</section>
+<section class="choose-us-section">
+    <h2>Why Choose Us</h2>
+    <p>
+        Experience simplicity and flexibility in website creation and launch your
+        personal or commercial brand effortlessly!
+    </p>
+    <div class="choose-inner">
+        <div class="choose-content">
+            <div class="content-item">
+                <h4>Effortless Website Creation</h4>
+                <p>
+                    Easily create your website by filling out simple forms, quick and
+                    hassle-free!
+                </p>
+            </div>
+            <div class="content-item">
+                <h4>Your Style, Your Way</h4>
+                <p>
+                    Our platform combines pre-defined styles with customizable
+                    options, giving you the freedom to personalize with custom CSS and
+                    style controls.
+                </p>
+            </div>
+            <div class="content-item">
+                <h4>Easy Integration</h4>
+                <p>
+                    Enjoy a free contact form and integrate with third party service
+                    providers like chatbot, calender, google analytics etc, easily.
+                </p>
+            </div>
+
+            <div class="content-item">
+                <h4>Effortless widget customization</h4>
+                <p>
+                    Streamlined for simplicity, effortlessly add or replace widgets
+                    that auto-adjust to your template, no expertise needed.
+                </p>
+            </div>
+        </div>
+        <div class="choose-us-image">
+            <img
+                    src="https://rs.turn2web.com/site/turn2web/assets/img/choose-us.jpg"
+                    alt="choose us Image"
+            />
+        </div>
+    </div>
+</section>
+<section class="plan-selection-container">
+    <div class="welcome-text">
+        <h1>Our Pricing</h1>
+        <h2>Check out our amazing plans</h2>
+        <p class="trial-info">
+            All features are accessible to everyone , no limitations or
+            restrictions. Just use and pay as you go.
+        </p>
+    </div>
+    <div class="points">
+        <p class="credit">1 Credit = 1 Live Day</p>
+        <p>Extra charge applies for custom domain linking<span>(Launching offer free)</span>.</p>
+    </div>
+    <div class="pricing">
+        <div class="plan-options">
+            <h3>Free plans</h3>
+            <div class="plan-option">
+                <div class="label">
+                    <div>
+                        <span>Free/Zero Cost Start Points</span>
+                    </div>
+                    <p>
+                        You get 50 Points as the Sign Up Bonus to get ahead and test out
+                        the sit
+                    </p>
+                </div>
+            </div>
+            <div class="continue-button">
+                <button fdprocessedid="ea4gv">
+                    <a href="/registration/user" class="">Go ahead, start free!</a>
+                </button>
+            </div>
+        </div>
+        <div class="plan-options">
+            <h3>Top up plans</h3>
+            <div class="plan-option">
+                <div class="label">
+                    <div>
+                        <span>TopUp</span>
+                        <h2>&#8377;100/&#8377;200</h2>
+                    </div>
+                    <p>
+                        You will get 110 Points or 220 Points for your extended usage accordingly.
+                    </p>
+                </div>
+            </div>
+            <div class="plan-option">
+                <div class="label">
+                    <div>
+                        <span>TopUp</span>
+                        <h2>&#8377;300</h2>
+                    </div>
+                    <p>
+                        You will get 330 Points accordingly for your hassle free usage
+                    </p>
+                </div>
+            </div>
+            <div class="continue-button">
+                <button fdprocessedid="ea4gv">
+                    <a href="/registration/user" class="">Start with TopUp Plans</a>
+                </button>
+            </div>
+        </div>
+    </div>
+    <p class="note">
+        <span>NOTE :- </span>Nominal charges apply for publishing and additional
+        services.
+    </p>
+</section>
+<section class="faq-section">
+    <h1 class="faq-title">Frequently Asked Questions</h1>
+    <p class="faq-description">Your most common doubts answered here</p>
+
+    <div class="faq-item">
+        <button class="faq-question">
+            How many Web sites can be created by a single user?
+            <span class="arrow"><i class="ri-arrow-down-s-line"></i></span>
+        </button>
+        <div class="faq-answer">
+            <p>
+                User can create as many website as he needs with a condition that
+                all his existings websites been topped up at lease once.
+            </p>
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <button class="faq-question">
+            Will I get a domain as part of the deployment?
+            <span class="arrow"><i class="ri-arrow-down-s-line"></i></span>
+        </button>
+        <div class="faq-answer">
+            <p>
+                Domain name will not be provided by us, if you have one we can link
+                your website to your domain name.
+            </p>
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <button class="faq-question">
+            Why and how is the company able to offer such low costs?
+            <span class="arrow"><i class="ri-arrow-down-s-line"></i></span>
+        </button>
+        <div class="faq-answer">
+            <p>
+                The application developed by very small team with passion which
+                incurs less cost of development and we are charging to provide
+                services as low as possible.
+            </p>
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <button class="faq-question">
+            Will there be 24/7 call support?
+            <span class="arrow"><i class="ri-arrow-down-s-line"></i></span>
+        </button>
+        <div class="faq-answer">
+            <p>
+                No at this moment, our system provided with reset and restore
+                options wherever possible, if you still need help you can contact us
+                on email.
+            </p>
+        </div>
+    </div>
+</section>
+<footer class="footer">
+    <div class="footer-container">
+        <div class="footer-col company-info">
+            <img src="https://rs.turn2web.com/site/turn2web/assets/img/logo.jpg" alt="Turn2Web Logo" class="footer-logo"/>
+            <p><strong>Turn2Web.</strong><br/>Web Presence Simplified</p>
+            <p>
+                Our mission is to empower individuals and businesses to create
+                stunning websites at an affordable cost, making cutting-edge design
+                accessible to all.
+            </p>
+        </div>
+        <div class="footer-col">
+            <h4>Useful Links</h4>
+            <ul>
+                <li><a href="#hero-section">Home</a></li>
+                <li><a href="/platform">Platform</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h4>Legal</h4>
+            <ul>
+                <li><a target="_blank" href="policy/privacy">Privacy Policy</a></li>
+                <li><a target="_blank" href="policy/terms">Terms and Conditions</a></li>
+            </ul>
+        </div>
+        <div class="footer-col social">
+            <h4>Social</h4>
+            <div class="social-icons">
+              
+                <a target="_blank" href="https://www.linkedin.com/company/turn2web"><i class="ri-linkedin-fill"></i></a>
+                <a target="_blank" href="https://www.youtube.com/@TURN2WEB"><i class="ri-youtube-fill"></i></a>
+            </div>
+        </div>
+    </div>
+    <p class="copyright">Powered by <span>Goitdev Technologies OPC Pvt. Ltd.</span>&#169;2024</p>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<link rel="stylesheet" href="https://rs.turn2web.com/js/lib/jquery/jquery-confirm.min.css">
+<script type="text/javascript" src="https://rs.turn2web.com/js/lib/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="https://rs.turn2web.com/js/lib/jquery/jquery-confirm.min.js"></script>
+<script type="text/javascript" src="https://rs.turn2web.com/js/util.js"></script>
+<script src="https://rs.turn2web.com/site/turn2web/assets/js/script.js"></script>
+
+
+<div id="cookieBoard">
+    <h4>We use cookies to enhance your web browsing experience. By continuing to browse the site, you agree to our policy on cookie usage.</h4>
+    <button onclick="acceptCookies()">Ok</button>
+    <button onclick="closeCookieBoard()" class="close">X</button>
+</div>
+<script>
+    function setCookie(name, value, days) {
+        const date = new Date();
+        date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+        const expires = "expires=" + date.toUTCString();
+        document.cookie = name + "=" + value + ";" + expires + ";path=/";
+    }
+
+    function getCookie(name) {
+        const decodedCookie = decodeURIComponent(document.cookie);
+        const ca = decodedCookie.split(';');
+        const cname = name + "=";
+        for (let i = 0; i < ca.length; i++) {
+            let c = ca[i].trim();
+            if (c.indexOf(cname) == 0) {
+                return c.substring(cname.length, c.length);
+            }
+        }
+        return "";
+    }
+
+    function checkCookie() {
+        const cookieAccepted = getCookie("cookieAccepted");
+        if (cookieAccepted) {
+            document.getElementById("cookieBoard").style.display = "none";
+        }
+    }
+
+    function acceptCookies() {
+        setCookie("cookieAccepted", "true", 3);
+        closeCookieBoard();
+    }
+
+    function closeCookieBoard() {
+        document.getElementById("cookieBoard").style.display = "none";
+    }
+
+    window.onload = checkCookie;
+</script>
+/* JavaScript for FAQ functionality and other interactive elements */
+document.addEventListener('DOMContentLoaded', function() {
+  // FAQ Accordion
+  const faqQuestions = document.querySelectorAll('.faq-question');
+  
+  faqQuestions.forEach(question => {
+    question.setAttribute('aria-expanded', 'false');
+    
+    question.addEventListener('click', () => {
+      const answer = question.nextElementSibling;
+      const isOpen = answer.classList.contains('active');
+      
+      // Close all answers
+      document.querySelectorAll('.faq-answer').forEach(item => {
+        item.classList.remove('active');
+      });
+      
+      document.querySelectorAll('.faq-question').forEach(item => {
+        item.setAttribute('aria-expanded', 'false');
+      });
+      
+      // Open clicked answer if it was closed
+      if (!isOpen) {
+        answer.classList.add('active');
+        question.setAttribute('aria-expanded', 'true');
+      }
+    });
+  });
+  
+  // Mobile Navigation
+  const toggleMenu = document.querySelector('.toggle-menu');
+  const navContainer = document.querySelector('.nav-container');
+  
+  if (toggleMenu && navContainer) {
+    toggleMenu.addEventListener('change', function() {
+      if (this.checked) {
+        document.body.style.overflow = 'hidden'; // Prevent scrolling when menu is open
+      } else {
+        document.body.style.overflow = '';
+      }
+    });
+    
+    // Close menu when clicking on a link
+    const navLinks = navContainer.querySelectorAll('a');
+    navLinks.forEach(link => {
+      link.addEventListener('click', () => {
+        toggleMenu.checked = false;
+        document.body.style.overflow = '';
+      });
+    });
+  }
+  
+  // Show popup function
+  window.showPopup = function() {
+    document.getElementById('popup').classList.add('active');
+    document.body.style.overflow = 'hidden'; // Prevent scrolling when popup is open
+  };
+  
+  // Submit form function
+  window.submitForm = function(event) {
+    document.getElementById('popup').classList.remove('active');
+    document.body.style.overflow = ''; // Re-enable scrolling
+  };
+  
+  // Add animation classes on scroll
+  const animateElements = document.querySelectorAll('.ft, .working-item, .content-item');
+  
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('animate-fadeIn');
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.1 });
+  
+  animateElements.forEach((element, index) => {
+    element.classList.add(`animate-delay-${index % 5 + 1}`);
+    observer.observe(element);
+  });
+});
+<script>window.$zoho=window.$zoho || {};$zoho.salesiq=$zoho.salesiq||{ready:function(){}}</script><script id="zsiqscript" src="https://salesiq.zohopublic.in/widget?wc=siqafda68ab9ae4c9d9bb78183a85b6c568b7cfe4b8e804d2944575bccfe28556b0" defer></script>
+</body>
+</html>
+
